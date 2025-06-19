@@ -1,22 +1,19 @@
-
 name: virtual_background_app
-description: A Flutter app for virtual 360 backgrounds with live video compositing.
-publish_to: 'none'
+description: A virtual background Flutter app.
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.17.0 <3.0.0'
+  sdk: ">=2.18.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   camera: ^0.10.5+5
-  google_mlkit_selfie_segmentation: ^0.3.0
-  sensors_plus: any
-  flutter_screen_recording: ^2.0.0
-  path_provider: ^2.0.14
-  path: 1.8.2
+  flutter_foreground_task: ^6.5.0
+  sensors_plus: ^4.0.2
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
